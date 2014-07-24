@@ -176,7 +176,21 @@ class weather {
         'pressure' => 'Pressão atmosférica',
         'hi' => 'Alta',
         'lo' => 'Baixa'
-        )
+        ),
+	    'ro' => array(
+		    'cannot_access' => "Nu pot accesa API-ul Vremea ",
+		    'invalid_city_info' => "Alege un oraș valid",
+		    'show_next_days' => "Prognoza pentru următoarele trei zile",
+		    'back_to_weather' => "Înapoi la prognoza de azi",
+		    'weather' => 'Prognoza meteo',
+		    'weather_desc' => "Descriere",
+		    'wind' => 'Vânt',
+		    'wind_degree' => 'Direcția vântului',
+		    'humidity' => 'Umiditate',
+		    'pressure' => 'Presiune atmosferică ',
+		    'hi' => 'MAX',
+		    'lo' => 'MIN'
+	    )
     );
     //Available API Languages ' don't modify
     private $api_lang = array('en', 'it', 'ru', 'fr', 'ua', 'de', 'pt', 'ro', 'pl', 'fi', 'nl', 'sp', 'bg', 'se', 'zh_tw', 'zh_cn', 'tr');
